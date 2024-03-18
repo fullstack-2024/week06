@@ -24,7 +24,7 @@ To practice performing CRUD operations (Create, Read, Update, Delete) on a RESTf
    - Click on the newly created collection to open it.
    - Click on the "Add Request" button.
    - Enter a name for the request, such as "Create One."
-   - In the "Request URL" field, enter the endpoint URL for creating a resource on JSONPlaceholder.com: `https://jsonplaceholder.typicode.com/posts`.
+   - In the "Request URL" field, enter the endpoint URL for creating a resource on JSONPlaceholder.com: `https://jsonplaceholder.typicode.com/posts`
    - Select the appropriate HTTP method (POST).
    - Click on the "Body" tab below the URL field.
    - Select "raw" as the body type.
@@ -40,14 +40,14 @@ To practice performing CRUD operations (Create, Read, Update, Delete) on a RESTf
 4. **Make a GET ALL Request:**
    - Follow the same steps as above to add another request.
    - Name the request "Get All."
-   - Enter the URL for retrieving all resources: `https://jsonplaceholder.typicode.com/posts`.
+   - Enter the URL for retrieving all resources: `https://jsonplaceholder.typicode.com/posts`
    - Use the appropriate HTTP method (GET).
    - Click "Send" to execute the request.
 
 5. **Make a GET One Request:**
    - Repeat the steps to add a new request.
    - Name the request "Get One."
-   - Enter the URL for retrieving a single resource, including a placeholder for the resource ID: `https://jsonplaceholder.typicode.com/posts/{id}`.
+   - Enter the URL for retrieving a single resource, including a placeholder for the resource ID: `https://jsonplaceholder.typicode.com/posts/{id}`
    - Replace `{id}` with the ID of the resource you want to retrieve.
    - Use the appropriate HTTP method (GET).
    - Click "Send" to execute the request.
@@ -55,7 +55,7 @@ To practice performing CRUD operations (Create, Read, Update, Delete) on a RESTf
 6. **Make a DELETE One Request:**
    - Repeat the steps to add a new request.
    - Name the request "Delete One."
-   - Enter the URL for deleting a resource, including a placeholder for the resource ID: `https://jsonplaceholder.typicode.com/posts/{id}`.
+   - Enter the URL for deleting a resource, including a placeholder for the resource ID: `https://jsonplaceholder.typicode.com/posts/{id}`
    - Replace `{id}` with the ID of the resource you want to delete.
    - Use the appropriate HTTP method (DELETE).
    - Click "Send" to execute the request.
@@ -63,12 +63,18 @@ To practice performing CRUD operations (Create, Read, Update, Delete) on a RESTf
 7. **Make an UPDATE One Request:**
    - Repeat the steps to add a new request.
    - Name the request "Update One."
-   - Enter the URL for updating a resource, including a placeholder for the resource ID: `https://jsonplaceholder.typicode.com/posts/{id}`.
+   - Enter the URL for updating a resource, including a placeholder for the resource ID: `https://jsonplaceholder.typicode.com/posts/{id}`
    - Replace `{id}` with the ID of the resource you want to update.
    - Use the appropriate HTTP method (PUT or PATCH).
    - Click on the "Body" tab below the URL field.
    - Select "raw" as the body type.
-   - In the text area below, enter the updated JSON data for the resource.
+   - In the text area below, enter the updated JSON data for the resource.bFor example:
+     ```json
+     {
+       "title": "New Post updated",
+       "body": "This is the body of the new post updated."
+     }
+     ```
    - Click "Send" to execute the request.
 
 8. **Test Requests:**
