@@ -7,7 +7,7 @@ In this lab, you will learn how to build an API server using Express.js and Mong
 - Basic understanding of JavaScript and web development concepts.
 
 
-### Part 1
+### Part 1/3
 
 1. **Create Folder Structure:**
     - Navigate to the `week6` directory.
@@ -131,7 +131,7 @@ app.listen(PORT, () => {
     - Endpoints include `/books` to get all books, `POST /books` to add a new book,  `DELETE /books/:id` to delete a book by its ID and  `DELETE /books` to delete all books.
 
 
-## Part 2
+## Part 2/3
 
 Write an API server for pets. Here's the data model:
 
@@ -142,6 +142,10 @@ const petSchema = new mongoose.Schema({
   age: { type: Number, required: true },
 });
 ```
+
+### Part 3/3
+
+Push this activity to GitHub. You can follow [this guideline](./git-instructions.md)
 
 ### Conclusion
 Congratulations! You have successfully built an API server using Express.js and Mongoose. This lab provides a foundational understanding of creating RESTful APIs and working with MongoDB databases in a Node.js environment. You can further enhance this project by adding validation, authentication, and additional CRUD operations as needed.
