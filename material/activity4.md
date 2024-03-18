@@ -31,7 +31,7 @@ In this lab, you will learn how to build an API server using Express.js and Mong
 ```javascript
 const mongoose = require("mongoose");
 
-const MONGO_URI = "mongodb://localhost:27017/books";
+const MONGO_URI = "mongodb://localhost:27017/library";
 
 const connectDB = async () => {
   const conn = await mongoose.connect(MONGO_URI);
@@ -98,10 +98,14 @@ module.exports = { getBooks, addBook, deleteBook, deleteAllBooks };
     
 ```javascript
 const express = require("express");
-const connectDB = require("./db");
-const { getBooks, addBook, deleteBook, deleteAllBooks} = require("./controller");
-
 const app = express();
+
+const connectDB = require("./db");
+const {
+  getBooks,
+  addBook,
+  deleteAllBooks,
+} = require("./controller");
 
 app.use(express.json());
 
@@ -111,7 +115,6 @@ connectDB();
 // Routes
 app.get("/books", getBooks);
 app.post("/books", addBook);
-app.delete("/books/:id", deleteBook);
 app.delete("/books", deleteAllBooks);
 
 const PORT = 5000;
