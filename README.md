@@ -39,9 +39,9 @@
 ### Tuesday-Afternoon: -- Optional: 
 
 - Activities: 
-  - [Activity 7](./material/activity7.md)
-  - [Activity 8](./material/activity8.md)
-  - [Activity 9](./material/activity9.md)
+  - [Activity 7 - Optional](./material/activity7.md)
+  - [Activity 8 - Optional](./material/activity8.md)
+  - [Activity 9 - Optional](./material/activity9.md)
 
 ### Wednesday-Morning: Mandatory
 - .
