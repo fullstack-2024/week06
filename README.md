@@ -28,29 +28,51 @@
   - [Activity 2](./material/activity2.md)
   - [Activity 3](./material/activity3.md)
 
-### Monday-Afternoon : Mandatory -- Mongoose vs Mongodb 
+### Monday-Afternoon : Mandatory -- Database 
 
-- Mongoose
+- Mongoose vs Mongodb 
 - Activities: 
   - [Activity 4](./material/activity4.md)
-  - [Activity 5](./material/activity5.md)
-  - [Activity 6](./material/activity6.md)
 
 ### Tuesday-Afternoon: -- Optional: 
 
+- Review
 - Activities: 
-  - [Activity 7 - Optional](./material/activity7.md)
-  - [Activity 8 - Optional](./material/activity8.md)
-  - [Activity 9 - Optional](./material/activity9.md)
+  - [Activity A - Optional](./material/activity-a.md)
+  - [Activity B - Optional](./material/activity-b.md)
+  - [Activity C - Optional](./material/activity-c.md)
 
 ### Wednesday-Morning: Mandatory
-- .
+
+- [Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring)
+- [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+- [`Request` Object in Express](./material/request.md)
+  - `req.params`
+  - `req.body`
+- By default, Mongoose automatically creates a collection in MongoDB using the pluralized form of the model name you provide.
+- Activities:
+  - [Activity 5](./material/activity5.md)
+  - [Activity 6](./material/activity6.md)
 
 ### Wednesday-Afternoon: Mandatory
-Server: Tutorial Clients & Servers, Requests & Responses
+
+- Mongoose
+- Arrow function
+- [`Response` Object in Express](./material/response.md)
+- CRUD
+- By default, Mongoose automatically creates a collection in MongoDB using the pluralized form of the model name you provide.
+- Activities: 
+  - [Activity 7](./material/activity7.md)
+  - [Activity 8](./material/activity8.md)
+  - [Activity 9](./material/activity9.md)
 
 ### Friday Afternoon: -- Optional at 14:30
--  .
+
+- Review
+- Activities: 
+  - [Activity D - Optional](./material/activity-d.md)
+  - [Activity E - Optional](./material/activity-e.md)
+  - [Activity F - Optional](./material/activity-f.md)
 
 
 

@@ -1,4 +1,4 @@
-# activity 4: Creating an API Server with Express and Mongoose
+# Activity 4: Creating an API Server with Express and Mongoose
 
 In this lab, you will learn how to build an API server using Express.js and Mongoose, a MongoDB object modeling tool. By following the steps outlined below, you will create a simple API server capable of performing CRUD (Create, Read, Update, Delete) operations on a MongoDB database.
 
@@ -134,7 +134,7 @@ app.listen(PORT, () => {
     - Endpoints include `/books` to get all books, `POST /books` to add a new book,  `DELETE /books/:id` to delete a book by its ID and  `DELETE /books` to delete all books.
 
 
-## Part 2/3
+### Part 2/3
 
 Write an API server for pets. Here's the data model:
 
