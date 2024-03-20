@@ -1,6 +1,6 @@
-# Activity E
+<!-- # Activity E
 
-<!-- Arrow function -->
+
 Write a recipe API server with the following the data model:
 
 ```js
@@ -12,4 +12,4 @@ const recipeSchema = new mongoose.Schema({
 });
 ```
 
-
+ -->

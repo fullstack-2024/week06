@@ -64,17 +64,18 @@
 - CRUD
 - By default, Mongoose automatically creates a collection in MongoDB using the pluralized form of the model name you provide.
 - Activities: 
-  - [Activity 7, by Groups: 10,5](./material/activity7.md)
+  - [Activity 7, by Groups: 10](./material/activity7.md)
   - [Activity 8, by Groups: 2,1](./material/activity8.md)
   - [Activity 9, by Groups: 3,4,6](./material/activity9.md)
+  - Group 5: next week
 
-### Friday Afternoon: -- Optional at 14:30
+<!-- ### Friday Afternoon: -- Optional at 14:30
 
 - Review
 - Activities: 
   - [Activity D - Optional](./material/activity-d.md)
   - [Activity E - Optional](./material/activity-e.md)
-  - [Activity F - Optional](./material/activity-f.md)
+  - [Activity F - Optional](./material/activity-f.md) -->
 
 
 
