@@ -180,7 +180,7 @@ app.listen(PORT, () => {
 
 ### Step 5: Test Endpoints Using Postman
 
-1. Open Postman and create a collection with the name of the lab (e.g., `lab#`).
+1. Open Postman and create a collection with the name of the lab (e.g., `week#lab#`).
 2. Create the following requests within the collection:
    - POST: Create one item
    - GET: Get all data

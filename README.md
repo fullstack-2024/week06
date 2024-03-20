@@ -57,7 +57,8 @@
 
 ### Wednesday-Afternoon: Mandatory
 
-- Mongoose
+- [How to write API server](./material/how-to-api-server.md)
+- [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
 - Arrow function
 - [`Response` Object in Express](./material/response.md)
 - CRUD
