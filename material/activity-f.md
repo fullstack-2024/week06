@@ -1,9 +1,14 @@
 # Activity F
 
-Write an API server for pets. Here's the data model:
+<!-- Arrow function -->
+Write a recipe API server with the following the data model:
 
 ```js
-//
+const reviewSchema = new mongoose.Schema({
+  reviewer: { type: String, required: true },
+  rating: { type: Number, required: true },
+  comment: { type: String, required: true }
+});
 ```
 
 ### Part 2

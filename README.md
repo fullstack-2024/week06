@@ -50,6 +50,7 @@
   - `req.params`
   - `req.body`
 - By default, Mongoose automatically creates a collection in MongoDB using the pluralized form of the model name you provide.
+- [Camel Case VS Pascal Case VS Kebab Case](https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/)
 - Activities:
   - [Activity 5](./material/activity5.md)
   - [Activity 6](./material/activity6.md)
@@ -62,9 +63,9 @@
 - CRUD
 - By default, Mongoose automatically creates a collection in MongoDB using the pluralized form of the model name you provide.
 - Activities: 
-  - [Activity 7](./material/activity7.md)
-  - [Activity 8](./material/activity8.md)
-  - [Activity 9](./material/activity9.md)
+  - [Activity 7, by Groups: 10,5](./material/activity7.md)
+  - [Activity 8, by Groups: 2,1](./material/activity8.md)
+  - [Activity 9, by Groups: 3,4,6](./material/activity9.md)
 
 ### Friday Afternoon: -- Optional at 14:30
 

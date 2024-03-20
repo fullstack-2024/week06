@@ -52,17 +52,9 @@ const inventorySchema = new mongoose.Schema({
 module.exports = mongoose.model('Inventory', inventorySchema);
 ```
 
-3. Open `controller.js` and add the following content:
+3. Open the `controller.js` file and add the code for the controllers. You may refer to the code provided in activity 5 for guidance.
 
-```javascript
-// Add content here
-```
-
-4. Open `app.js` and add the following content:
-
-```javascript
-// Add content here
-```
+4. Open the `app.js` file and write the code to set up the server. You can refer to the code provided in activity 5 for assistance.
 
 ### Step 4: Start the Server
 
